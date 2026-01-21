@@ -21,7 +21,7 @@ These targets are designed to be cloned or extracted directly into
 ```
 
 ```bash
-svn export https://github.com/MeghBadonia/mcugen-themes/trunk/targets ~/.config/mcugen/targets
+svn export https://github.com/MeghBadonia/mcugen-themes.git/trunk/targets ~/.config/mcugen/targets
 ```
 
 Or download as a ZIP and extract into the same directory.
