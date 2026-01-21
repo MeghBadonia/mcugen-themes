@@ -28,6 +28,8 @@ After installing or updating themes:
 <p align="center">
   <img src="screenshots/gtk_light.png" width="42%" />
   <img src="screenshots/gtk_dark.png" width="42%" />
+  <img src="screenshots/kde_light.png" width="42%" />
+  <img src="screenshots/kde_dark.png" width="42%" />
 </p>
 
 ## Notes
