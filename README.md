@@ -7,21 +7,10 @@ These targets are designed to be cloned or extracted directly into
 
 ## Installation
 
-### Debian
 ```bash
-  sudo apt install subversion
-```
-### Fedora
-```bash
-  sudo dnf install subversion
-```
-### Arch Linux
-```bash
-  sudo pacman -S subversion
-```
-
-```bash
-svn export https://github.com/MeghBadonia/mcugen-themes.git/trunk/targets ~/.config/mcugen/targets
+curl -L https://github.com/MeghBadonia/mcugen-themes/archive/refs/heads/main.zip -o mcugen-themes.zip
+unzip mcugen-themes.zip
+cp -r mcugen-themes-main/targets ~/.config/mcugen/
 ```
 
 Or download as a ZIP and extract into the same directory.
