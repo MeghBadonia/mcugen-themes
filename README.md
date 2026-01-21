@@ -2,28 +2,59 @@
 
 A collection of ready-to-use theme targets for **mcugen**.
 
-These targets are designed to be cloned or extracted directly into
+These targets are designed to be downloaded or extracted directly into  
 `~/.config/mcugen/targets` and used as-is.
 
-## Installation
+---
+
+## Download
+
+### Option 1: Download ZIP (recommended, most reliable)
+
+**Direct download link:**  
+https://github.com/MeghBadonia/mcugen-themes/archive/refs/heads/main.zip
+
+### Install using terminal
 
 ```bash
 curl -L https://github.com/MeghBadonia/mcugen-themes/archive/refs/heads/main.zip -o mcugen-themes.zip
 unzip mcugen-themes.zip
+mkdir -p ~/.config/mcugen
 cp -r mcugen-themes-main/targets ~/.config/mcugen/
 ```
 
-Or download as a ZIP and extract into the same directory.
+---
+
+### Option 2: Manual download (GUI)
+
+1. Open:  
+   https://github.com/MeghBadonia/mcugen-themes
+2. Click **Code → Download ZIP**
+3. Extract the archive
+4. Copy the `targets/` folder into:
+
+```text
+~/.config/mcugen/targets
+```
+
+---
+
+## After Installation
 
 After installing or updating themes:
+
 - Regenerate colors using **mcugen**
 - Restart affected GTK applications
-- **Logging out and logging back in is preferred** to ensure all apps pick up the new colors
+- **Logging out and logging back in is recommended** to ensure all apps pick up the new colors
+
+---
 
 ## Included Targets
 
 - GTK 4 / libadwaita
 - KDE Color Scheme
+
+---
 
 ## Screenshots
 
@@ -34,8 +65,10 @@ After installing or updating themes:
   <img src="screenshots/kde_dark.png" width="42%" />
 </p>
 
+---
+
 ## Notes
 
 - Themes follow libadwaita surface and contrast rules
-- Light and dark modes are handled automatically by mcugen
-- No hardcoded colors — everything is driven by Material roles
+- Light and dark modes are handled automatically by **mcugen**
+- No hardcoded colors — everything is derived from Material color roles
