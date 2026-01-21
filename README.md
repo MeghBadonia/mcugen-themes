@@ -14,7 +14,10 @@ git clone https://github.com/MeghBadonia/mcugen-themes.git
 
 Or download as a ZIP and extract into the same directory.
 
-Restart any running GTK applications after generating colors.
+After installing or updating themes:
+- Regenerate colors using **mcugen**
+- Restart affected GTK applications
+- **Logging out and logging back in is preferred** to ensure all apps pick up the new colors
 
 ## Included Targets
 
@@ -26,7 +29,6 @@ Restart any running GTK applications after generating colors.
   <img src="screenshots/gtk_light.png" width="42%" />
   <img src="screenshots/gtk_dark.png" width="42%" />
 </p>
-
 
 ## Notes
 
