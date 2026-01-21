@@ -1,0 +1,50 @@
+# vim:ft=kitty
+
+background                {{surface.hex}}
+foreground                {{onSurface.hex}}
+
+selection_background      {{surfaceVariant.hex}}
+selection_foreground      {{onSurfaceVariant.hex}}
+
+url_color                 {{primary.hex}}
+
+wayland_titlebar_color    system
+macos_titlebar_color      system
+
+cursor                    {{onSurface.hex}}
+cursor_text_color         {{surface.hex}}
+
+active_border_color       {{outline.hex}}
+inactive_border_color     {{outlineVariant.hex}}
+bell_border_color         {{error.hex}}
+visual_bell_color         none
+
+active_tab_background     {{surface.hex}}
+active_tab_foreground     {{onSurface.hex}}
+inactive_tab_background   {{surfaceVariant.hex}}
+inactive_tab_foreground   {{onSurfaceVariant.hex}}
+tab_bar_background        none
+tab_bar_margin_color      none
+
+# Padding
+window_padding_width      16
+window_padding_height     16
+
+# ANSI colors
+color0                    {{surface.hex}}
+color1                    {{error.hex}}
+color2                    {{secondary.hex}}
+color3                    {{tertiary.hex}}
+color4                    {{primary.hex}}
+color5                    {{secondaryContainer.hex}}
+color6                    {{tertiaryContainer.hex}}
+color7                    {{onSurface.hex}}
+
+color8                    {{outlineVariant.hex}}
+color9                    {{errorContainer.hex}}
+color10                   {{secondaryContainer.hex}}
+color11                   {{tertiaryContainer.hex}}
+color12                   {{primaryContainer.hex}}
+color13                   {{secondary.hex}}
+color14                   {{tertiary.hex}}
+color15                   {{onBackground.hex}}
