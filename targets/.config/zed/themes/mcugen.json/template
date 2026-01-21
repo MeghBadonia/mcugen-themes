@@ -1,0 +1,273 @@
+{
+  "$schema": "https://zed.dev/schema/themes/v0.2.0.json",
+  "name": "mcugen",
+  "author": "mcugen",
+  "themes": [
+    {
+      "name": "mcugen Dark",
+      "appearance": "dark",
+      "style": {
+        "accents": [
+          "{{dark.primary.hex}}",
+          "{{dark.secondary.hex}}",
+          "{{dark.tertiary.hex}}"
+        ],
+
+        "background.appearance": "opaque",
+
+        "border": "{{dark.outline.hex}}",
+        "border.variant": "{{dark.outlineVariant.hex}}",
+        "border.focused": "{{dark.primary.hex}}",
+        "border.selected": "{{dark.primary.hex}}",
+        "border.transparent": "{{dark.outlineVariant.hex}}40",
+        "border.disabled": "{{dark.outlineVariant.hex}}60",
+
+        "elevated_surface.background": "{{dark.surfaceVariant.hex}}",
+        "surface.background": "{{dark.surface.hex}}",
+        "background": "{{dark.background.hex}}",
+
+        "element.background": "{{dark.surface.hex}}",
+        "element.hover": "{{dark.surfaceVariant.hex}}",
+        "element.active": "{{dark.surfaceVariant.hex}}",
+        "element.selected": "{{dark.surfaceVariant.hex}}",
+        "element.disabled": "{{dark.surface.hex}}",
+
+        "drop_target.background": "{{dark.primary.hex}}80",
+
+        "text": "{{dark.onSurface.hex}}",
+        "text.muted": "{{dark.onSurfaceVariant.hex}}",
+        "text.placeholder": "{{dark.onSurfaceVariant.hex}}99",
+        "text.disabled": "{{dark.onSurfaceVariant.hex}}60",
+        "text.accent": "{{dark.primary.hex}}",
+
+        "icon": "{{dark.onSurface.hex}}",
+        "icon.muted": "{{dark.onSurfaceVariant.hex}}",
+        "icon.disabled": "{{dark.onSurfaceVariant.hex}}60",
+        "icon.placeholder": "{{dark.onSurfaceVariant.hex}}80",
+        "icon.accent": "{{dark.primary.hex}}",
+
+        "status_bar.background": "{{dark.surface.hex}}",
+        "title_bar.background": "{{dark.surface.hex}}",
+        "title_bar.inactive_background": "{{dark.surfaceVariant.hex}}",
+        "toolbar.background": "{{dark.surface.hex}}",
+
+        "tab_bar.background": "{{dark.surface.hex}}",
+        "tab.inactive_background": "{{dark.surface.hex}}",
+        "tab.active_background": "{{dark.background.hex}}",
+
+        "panel.background": "{{dark.surface.hex}}",
+        "panel.focused_border": "{{dark.primary.hex}}",
+        "pane.focused_border": "{{dark.primary.hex}}",
+
+        "scrollbar.thumb.background": "{{dark.onSurface.hex}}4c",
+        "scrollbar.thumb.hover_background": "{{dark.onSurface.hex}}80",
+        "scrollbar.thumb.border": "{{dark.outlineVariant.hex}}40",
+        "scrollbar.track.background": "#00000000",
+        "scrollbar.track.border": "{{dark.outlineVariant.hex}}20",
+
+        "editor.foreground": "{{dark.onSurface.hex}}",
+        "editor.background": "{{dark.background.hex}}",
+        "editor.gutter.background": "{{dark.background.hex}}",
+        "editor.subheader.background": "{{dark.surface.hex}}",
+        "editor.active_line.background": "{{dark.surface.hex}}80",
+        "editor.highlighted_line.background": "{{dark.surfaceVariant.hex}}80",
+        "editor.line_number": "{{dark.onSurfaceVariant.hex}}",
+        "editor.active_line_number": "{{dark.primary.hex}}",
+        "editor.invisible": "{{dark.outlineVariant.hex}}80",
+        "editor.wrap_guide": "{{dark.outlineVariant.hex}}40",
+        "editor.active_wrap_guide": "{{dark.outline.hex}}80",
+        "editor.document_highlight.read_background": "{{dark.primary.hex}}40",
+        "editor.document_highlight.write_background": "{{dark.secondary.hex}}40",
+
+        "terminal.background": "{{dark.background.hex}}",
+        "terminal.foreground": "{{dark.onSurface.hex}}",
+        "terminal.bright_foreground": "{{dark.onSurface.hex}}",
+        "terminal.dim_foreground": "{{dark.onSurfaceVariant.hex}}",
+
+        "terminal.ansi.black": "{{dark.background.hex}}",
+        "terminal.ansi.red": "{{dark.error.hex}}",
+        "terminal.ansi.green": "{{dark.primary.hex}}",
+        "terminal.ansi.yellow": "{{dark.tertiary.hex}}",
+        "terminal.ansi.blue": "{{dark.secondary.hex}}",
+        "terminal.ansi.magenta": "{{dark.tertiary.hex}}",
+        "terminal.ansi.cyan": "{{dark.secondary.hex}}",
+        "terminal.ansi.white": "{{dark.onSurface.hex}}",
+
+        "link_text.hover": "{{dark.primary.hex}}",
+
+        "conflict": "{{dark.error.hex}}",
+        "conflict.background": "{{dark.error.hex}}40",
+        "conflict.border": "{{dark.error.hex}}",
+
+        "created": "{{dark.tertiary.hex}}",
+        "created.background": "{{dark.tertiary.hex}}40",
+        "created.border": "{{dark.tertiary.hex}}",
+
+        "deleted": "{{dark.error.hex}}",
+        "deleted.background": "{{dark.error.hex}}40",
+        "deleted.border": "{{dark.error.hex}}",
+
+        "error": "{{dark.error.hex}}",
+        "error.background": "{{dark.error.hex}}40",
+        "error.border": "{{dark.error.hex}}",
+
+        "warning": "{{dark.tertiary.hex}}",
+        "warning.background": "{{dark.tertiary.hex}}40",
+        "warning.border": "{{dark.tertiary.hex}}",
+
+        "info": "{{dark.secondary.hex}}",
+        "info.background": "{{dark.secondary.hex}}40",
+        "info.border": "{{dark.secondary.hex}}",
+
+        "success": "{{dark.primary.hex}}",
+        "success.background": "{{dark.primary.hex}}40",
+        "success.border": "{{dark.primary.hex}}",
+
+        "players": [
+          {
+            "cursor": "{{dark.primary.hex}}",
+            "background": "{{dark.primary.hex}}80",
+            "selection": "{{dark.primary.hex}}60"
+          }
+        ],
+
+        "syntax": {
+          "comment": {
+            "color": "{{dark.onSurfaceVariant.hex}}",
+            "font_style": "italic"
+          },
+          "comment.doc": {
+            "color": "{{dark.onSurfaceVariant.hex}}",
+            "font_style": "italic"
+          },
+          "keyword": {
+            "color": "{{dark.secondary.hex}}"
+          },
+          "string": {
+            "color": "{{dark.tertiary.hex}}"
+          },
+          "number": {
+            "color": "{{dark.tertiary.hex}}"
+          },
+          "function": {
+            "color": "{{dark.primary.hex}}"
+          },
+          "type": {
+            "color": "{{dark.primary.hex}}"
+          },
+          "variable": {
+            "color": "{{dark.onSurface.hex}}"
+          },
+          "operator": {
+            "color": "{{dark.onSurfaceVariant.hex}}"
+          },
+          "punctuation": {
+            "color": "{{dark.onSurfaceVariant.hex}}"
+          },
+          "tag": {
+            "color": "{{dark.secondary.hex}}"
+          }
+        }
+      }
+    },
+
+    {
+      "name": "mcugen Light",
+      "appearance": "light",
+      "style": {
+        "accents": [
+          "{{light.primary.hex}}",
+          "{{light.secondary.hex}}",
+          "{{light.tertiary.hex}}"
+        ],
+
+        "background.appearance": "opaque",
+
+        "border": "{{light.outline.hex}}",
+        "border.variant": "{{light.outlineVariant.hex}}",
+        "border.focused": "{{light.primary.hex}}",
+        "border.selected": "{{light.primary.hex}}",
+        "border.transparent": "{{light.outlineVariant.hex}}40",
+        "border.disabled": "{{light.outlineVariant.hex}}60",
+
+        "elevated_surface.background": "{{light.surfaceVariant.hex}}",
+        "surface.background": "{{light.surface.hex}}",
+        "background": "{{light.background.hex}}",
+
+        "element.background": "{{light.surface.hex}}",
+        "element.hover": "{{light.surfaceVariant.hex}}",
+        "element.active": "{{light.surfaceVariant.hex}}",
+        "element.selected": "{{light.surfaceVariant.hex}}",
+        "element.disabled": "{{light.surface.hex}}",
+
+        "drop_target.background": "{{light.primary.hex}}80",
+
+        "text": "{{light.onSurface.hex}}",
+        "text.muted": "{{light.onSurfaceVariant.hex}}",
+        "text.placeholder": "{{light.onSurfaceVariant.hex}}99",
+        "text.disabled": "{{light.onSurfaceVariant.hex}}60",
+        "text.accent": "{{light.primary.hex}}",
+
+        "icon": "{{light.onSurface.hex}}",
+        "icon.muted": "{{light.onSurfaceVariant.hex}}",
+        "icon.disabled": "{{light.onSurfaceVariant.hex}}60",
+        "icon.placeholder": "{{light.onSurfaceVariant.hex}}80",
+        "icon.accent": "{{light.primary.hex}}",
+
+        "status_bar.background": "{{light.surface.hex}}",
+        "title_bar.background": "{{light.surface.hex}}",
+        "title_bar.inactive_background": "{{light.surfaceVariant.hex}}",
+        "toolbar.background": "{{light.surface.hex}}",
+
+        "tab_bar.background": "{{light.surface.hex}}",
+        "tab.inactive_background": "{{light.surface.hex}}",
+        "tab.active_background": "{{light.background.hex}}",
+
+        "panel.background": "{{light.surface.hex}}",
+        "panel.focused_border": "{{light.primary.hex}}",
+        "pane.focused_border": "{{light.primary.hex}}",
+
+        "editor.foreground": "{{light.onSurface.hex}}",
+        "editor.background": "{{light.background.hex}}",
+
+        "syntax": {
+          "comment": {
+            "color": "{{light.onSurfaceVariant.hex}}",
+            "font_style": "italic"
+          },
+          "comment.doc": {
+            "color": "{{light.onSurfaceVariant.hex}}",
+            "font_style": "italic"
+          },
+          "keyword": {
+            "color": "{{light.secondary.hex}}"
+          },
+          "string": {
+            "color": "{{light.tertiary.hex}}"
+          },
+          "number": {
+            "color": "{{light.tertiary.hex}}"
+          },
+          "function": {
+            "color": "{{light.primary.hex}}"
+          },
+          "type": {
+            "color": "{{light.primary.hex}}"
+          },
+          "variable": {
+            "color": "{{light.onSurface.hex}}"
+          },
+          "operator": {
+            "color": "{{light.onSurfaceVariant.hex}}"
+          },
+          "punctuation": {
+            "color": "{{light.onSurfaceVariant.hex}}"
+          },
+          "tag": {
+            "color": "{{light.secondary.hex}}"
+          }
+        }
+      }
+    }
+  ]
+}
