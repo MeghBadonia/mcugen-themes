@@ -20,6 +20,14 @@ Restart any running GTK applications after generating colors.
 
 - GTK 4 / libadwaita
 
+## Screenshots
+
+**Main window (light)**
+![Main window light](screenshots/gtk_light.png)
+
+**Main window (dark)**
+![Main window dark](screenshots/gtk_dark.png)
+
 ## Notes
 
 - Themes follow libadwaita surface and contrast rules
