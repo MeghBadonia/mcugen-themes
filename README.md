@@ -22,11 +22,11 @@ Restart any running GTK applications after generating colors.
 
 ## Screenshots
 
-**Main window (light)**
-![Main window light](screenshots/gtk_light.png)
+<p align="center">
+  <img src="screenshots/gtk_light.png" width="42%" />
+  <img src="screenshots/gtk_dark.png" width="42%" />
+</p>
 
-**Main window (dark)**
-![Main window dark](screenshots/gtk_dark.png)
 
 ## Notes
 
