@@ -2,21 +2,22 @@
 Color={{surface.hex}}
 ColorAmount=0
 ColorEffect=0
-ContrastAmount=0.65
+ContrastAmount=0.55
 ContrastEffect=1
-IntensityAmount=0.1
+IntensityAmount=0.05
 IntensityEffect=2
 
 [ColorEffects:Inactive]
 ChangeSelectionColor=true
 Color={{surfaceVariant.hex}}
-ColorAmount=0.025
+ColorAmount=0.03
 ColorEffect=2
 ContrastAmount=0.1
 ContrastEffect=2
 Enable=false
 IntensityAmount=0
 IntensityEffect=0
+
 
 [Colors:Button]
 BackgroundAlternate={{surfaceVariant.hex}}
@@ -32,6 +33,7 @@ ForegroundNormal={{onSurface.hex}}
 ForegroundPositive={{tertiary.hex}}
 ForegroundVisited={{onSecondaryContainer.hex}}
 
+
 [Colors:Complementary]
 BackgroundAlternate={{surfaceVariant.hex}}
 BackgroundNormal={{surface.hex}}
@@ -42,9 +44,10 @@ ForegroundInactive={{onSurfaceVariant.hex}}
 ForegroundLink={{secondary.hex}}
 ForegroundNegative={{error.hex}}
 ForegroundNeutral={{tertiary.hex}}
-ForegroundNormal={{onPrimaryContainer.hex}}
+ForegroundNormal={{onSurface.hex}}
 ForegroundPositive={{tertiary.hex}}
 ForegroundVisited={{onSecondaryContainer.hex}}
+
 
 [Colors:Header]
 BackgroundAlternate={{surface.hex}}
@@ -74,23 +77,25 @@ ForegroundNormal={{onSurface.hex}}
 ForegroundPositive={{tertiary.hex}}
 ForegroundVisited={{onSecondaryContainer.hex}}
 
+
 [Colors:Selection]
 BackgroundAlternate={{surfaceVariant.hex}}
 BackgroundNormal={{primary.hex}}
 DecorationFocus={{primary.hex}}
 DecorationHover={{primary.hex}}
 ForegroundActive={{onPrimary.hex}}
-ForegroundInactive={{onSurfaceVariant.hex}}
-ForegroundLink={{secondary.hex}}
-ForegroundNegative={{errorContainer.hex}}
-ForegroundNeutral={{tertiaryContainer.hex}}
+ForegroundInactive={{onPrimary.hex}}
+ForegroundLink={{onPrimary.hex}}
+ForegroundNegative={{onPrimary.hex}}
+ForegroundNeutral={{onPrimary.hex}}
 ForegroundNormal={{onPrimary.hex}}
-ForegroundPositive={{tertiaryContainer.hex}}
-ForegroundVisited={{onSecondaryContainer.hex}}
+ForegroundPositive={{onPrimary.hex}}
+ForegroundVisited={{onPrimary.hex}}
+
 
 [Colors:Tooltip]
-BackgroundAlternate={{surface.hex}}
-BackgroundNormal={{surface.hex}}
+BackgroundAlternate={{surfaceVariant.hex}}
+BackgroundNormal={{surfaceVariant.hex}}
 DecorationFocus={{primary.hex}}
 DecorationHover={{primary.hex}}
 ForegroundActive={{primary.hex}}
@@ -98,26 +103,13 @@ ForegroundInactive={{onSurfaceVariant.hex}}
 ForegroundLink={{secondary.hex}}
 ForegroundNegative={{error.hex}}
 ForegroundNeutral={{tertiary.hex}}
-ForegroundNormal={{onBackground.hex}}
+ForegroundNormal={{onSurface.hex}}
 ForegroundPositive={{tertiary.hex}}
 ForegroundVisited={{onSecondaryContainer.hex}}
+
 
 [Colors:View]
-BackgroundAlternate={{surface.hex}}
-BackgroundNormal={{background.hex}}
-DecorationFocus={{onPrimaryContainer.hex}}
-DecorationHover={{onPrimary.hex}}
-ForegroundActive={{primary.hex}}
-ForegroundInactive={{onSurfaceVariant.hex}}
-ForegroundLink={{secondary.hex}}
-ForegroundNegative={{error.hex}}
-ForegroundNeutral={{tertiary.hex}}
-ForegroundNormal={{onBackground.hex}}
-ForegroundPositive={{tertiary.hex}}
-ForegroundVisited={{onSecondaryContainer.hex}}
-
-[Colors:Window]
-BackgroundAlternate={{primaryContainer.hex}}
+BackgroundAlternate={{surfaceVariant.hex}}
 BackgroundNormal={{surface.hex}}
 DecorationFocus={{primary.hex}}
 DecorationHover={{primary.hex}}
@@ -126,19 +118,38 @@ ForegroundInactive={{onSurfaceVariant.hex}}
 ForegroundLink={{secondary.hex}}
 ForegroundNegative={{error.hex}}
 ForegroundNeutral={{tertiary.hex}}
-ForegroundNormal={{onBackground.hex}}
+ForegroundNormal={{onSurface.hex}}
 ForegroundPositive={{tertiary.hex}}
 ForegroundVisited={{onSecondaryContainer.hex}}
+
+
+[Colors:Window]
+BackgroundAlternate={{surfaceVariant.hex}}
+BackgroundNormal={{surface.hex}}
+DecorationFocus={{primary.hex}}
+DecorationHover={{primary.hex}}
+ForegroundActive={{primary.hex}}
+ForegroundInactive={{onSurfaceVariant.hex}}
+ForegroundLink={{secondary.hex}}
+ForegroundNegative={{error.hex}}
+ForegroundNeutral={{tertiary.hex}}
+ForegroundNormal={{onSurface.hex}}
+ForegroundPositive={{tertiary.hex}}
+ForegroundVisited={{onSecondaryContainer.hex}}
+
 
 [General]
 ColorScheme=mcugen
 Name=mcugen
 
+
 [Appearance]
 color_scheme=mcugen
 
+
 [KDE]
 contrast=4
+
 
 [WM]
 activeBackground={{primaryContainer.hex}}
