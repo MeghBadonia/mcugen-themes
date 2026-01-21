@@ -1,2 +1,8 @@
-# mcugen-themes
-Ready to use mcugen themes
+# Mcugen Themes
+
+## Installation
+
+```bash
+cd ~/.config/mcugen/targets
+git clone https://github.com/MeghBadonia/mcugen-themes.git
+```
