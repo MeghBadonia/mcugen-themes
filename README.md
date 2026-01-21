@@ -7,9 +7,21 @@ These targets are designed to be cloned or extracted directly into
 
 ## Installation
 
+### Debian
 ```bash
-cd ~/.config/mcugen/targets
-git clone https://github.com/MeghBadonia/mcugen-themes.git
+  sudo apt install subversion
+```
+### Fedora
+```bash
+  sudo dnf install subversion
+```
+### Arch Linux
+```bash
+  sudo pacman -S subversion
+```
+
+```bash
+svn export https://github.com/MeghBadonia/mcugen-themes/trunk/targets ~/.config/mcugen/targets
 ```
 
 Or download as a ZIP and extract into the same directory.
@@ -22,6 +34,7 @@ After installing or updating themes:
 ## Included Targets
 
 - GTK 4 / libadwaita
+- KDE Color Scheme
 
 ## Screenshots
 
